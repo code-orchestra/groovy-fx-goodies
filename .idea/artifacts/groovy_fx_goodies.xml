@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="groovy-fx-goodies">
+    <output-path>$PROJECT_DIR$/out/artifacts/groovy_fx_goodies</output-path>
+    <root id="archive" name="groovy-fx-goodies.jar">
+      <element id="module-output" name="groovy-fx-goodies" />
+    </root>
+  </artifact>
+</component>
