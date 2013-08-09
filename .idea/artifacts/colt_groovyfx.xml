@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="colt-groovyfx">
+    <output-path>$PROJECT_DIR$/out/artifacts/colt_groovyfx</output-path>
+    <root id="archive" name="colt-groovyfx.jar">
+      <element id="module-output" name="colt-groovyfx" />
+    </root>
+  </artifact>
+</component>
