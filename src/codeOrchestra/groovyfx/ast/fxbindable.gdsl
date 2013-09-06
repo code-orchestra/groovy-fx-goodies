@@ -19,7 +19,7 @@ contributor(context()) {
 
     Boolean classHasAnnotation = classType?.hasAnnotation("codeOrchestra.groovyfx.FXBindable")
 
-    classType?.fields?.each { f ->
+    classType?.allFields?.each { f ->
 
         if (classHasAnnotation || f.hasAnnotation("codeOrchestra.groovyfx.FXBindable")) {
             def regexp = ~/^(.+?)([<].+[>])?$/
